@@ -1,0 +1,158 @@
+{
+  "workspaces": {
+    "empty": {
+      "main": {
+        "id": "611dcf82d55be587",
+        "type": "split",
+        "children": [
+          {
+            "id": "bd022fb5b109f900",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ec596acf96b72248",
+        "type": "split",
+        "children": [
+          {
+            "id": "33fd39938617e9a3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4493713cf3f67486",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "92d7c55579a64920",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 568.9999980926514,
+        "collapsed": true
+      },
+      "right": {
+        "id": "b21080ca43ec40f7",
+        "type": "split",
+        "children": [],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "active": "bd022fb5b109f900"
+    },
+    "backlinks": {
+      "main": {
+        "id": "611dcf82d55be587",
+        "type": "split",
+        "children": [
+          {
+            "id": "63d02e2a4a907aea",
+            "type": "split",
+            "children": [
+              {
+                "id": "bd022fb5b109f900",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "ef59bba3282250ab",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": true,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ec596acf96b72248",
+        "type": "split",
+        "children": [
+          {
+            "id": "33fd39938617e9a3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4493713cf3f67486",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "92d7c55579a64920",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 568.9999980926514,
+        "collapsed": true
+      },
+      "right": {
+        "id": "b21080ca43ec40f7",
+        "type": "split",
+        "children": [],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "active": "ef59bba3282250ab"
+    }
+  },
+  "active": "backlinks"
+}

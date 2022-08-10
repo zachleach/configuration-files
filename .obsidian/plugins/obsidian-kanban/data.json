@@ -1,0 +1,7 @@
+{
+  "hide-tags-in-title": true,
+  "new-line-trigger": "shift-enter",
+  "show-archive-all": false,
+  "new-note-folder": "kanban",
+  "show-board-settings": false
+}

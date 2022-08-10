@@ -1,0 +1,96 @@
+/* make vim cursor gray and thicc */
+.cm-fat-cursor {
+  background-color: #7e7e7e !important;
+  color: #ffffff !important;
+  opacity: 60% !important;
+  width: 10px !important;
+}
+
+.cm-animate-fat-cursor {
+  background-color: #000000 !important;
+  color: #000000 !important;
+  opacity: 60% !important;
+  width: 10px !important;
+}
+
+/* text within `inline fences` */
+.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight) {
+    background-color: var(--background-primary-alt);
+    color: var(--text-normal);
+    vertical-align: baseline;
+    font-size: 85%;
+    border-left: 4px solid var(--background-secondary);
+    border-right: 4px solid var(--background-secondary);
+    border-radius: 6px;
+    border-top: 1px solid var(--background-secondary);
+    border-bottom: 1px solid var(--background-secondary);
+}
+/* the `inline fences` themselves */
+.cm-s-obsidian span.cm-inline-code {
+    color: var(--text-normal);
+    font-size: 90%;
+    background-color: var(--background-primary-alt);
+    vertical-align: baseline;
+}
+
+/* the triangle thing for folding */
+.markdown-source-view.mod-cm6 .cm-fold-indicator .collapse-indicator {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 115%;
+    cursor: var(--cursor);
+    padding-right: 12px;
+}
+
+/* set the ... thing to transparent folding */
+.markdown-source-view.mod-cm6 .cm-foldPlaceholder {
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+}
+
+/* the ```codeblock``` region */
+.cm-s-obsidian div.HyperMD-codeblock-bg {
+    left: 0;
+    right: 0;
+    background-color: var(--background-primary-alt);
+    border-left: 1px solid var(--background-secondary);
+    border-right: 1px solid var(--background-secondary);
+}
+/* the text within ```codeblock``` */
+.cm-s-obsidian .HyperMD-codeblock {
+    font-family: var(--font-monospace);
+    line-height: 1.3;
+    font-size: 0.90em;
+}
+
+
+/* ==highlight== */
+.cm-s-obsidian span.cm-formatting-highlight, .cm-s-obsidian span.cm-highlight {
+    background-color: transparent;
+    color: var(--text-accent);
+}
+
+
+/* increase text width in preview and read mode */
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer, 
+.markdown-source-view.is-readable-line-width .cm-content {
+    max-width: 950px;
+}
+/* increase text width in editor mode */
+.markdown-source-view.mod-cm6.is-readable-line-width.is-rtl .cm-contentContainer {
+    max-width: 950px;
+    margin-left: auto;
+}
+.markdown-source-view.mod-cm6.is-readable-line-width:not(.is-rtl) .cm-contentContainer {
+    max-width: 950px; 
+    margin-right: auto;
+}
+.markdown-source-view.mod-cm6.is-line-wrap.is-readable-line-width .cm-line:not(.HyperMD-table-row) {
+    max-width: 950px;
+}
+.markdown-source-view.mod-cm6.is-line-wrap.is-readable-line-width .cm-content {
+    max-width: 950px;
+}

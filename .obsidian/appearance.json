@@ -1,0 +1,11 @@
+{
+  "enabledCssSnippets": [
+    "obsidian"
+  ],
+  "cssTheme": "",
+  "interfaceFontFamily": "Consolas",
+  "textFontFamily": "Consolas",
+  "monospaceFontFamily": "Consolas",
+  "baseFontSize": 16,
+  "theme": "obsidian"
+}
